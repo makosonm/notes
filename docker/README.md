@@ -114,13 +114,13 @@ Server: Docker Engine - Community
 
 ## 3、Docker的基本组成
 
-![Docker的基本组成](../data/imgs/docker/docker的基本组成.png)
+![Docker的基本组成](../.gitbook/assets/docker的基本组成.png)
 
 
 ### 3.1 Docker客户端/守护进程
 
 
-![C/S架构通信](../data/imgs/docker/docker的基本组成CS2.png)
+![C/S架构通信](../.gitbook/assets/docker的基本组成CS2.png)
 
 #### 连接方式
 
@@ -557,7 +557,7 @@ Server: Docker Engine - Community
 
 > 数据卷的架构
 
-![](../data/imgs/docker/docker-data-volume.png)
+![](../.gitbook/assets/docker-data-volume.png)
 
 - 数据卷是独立docker的存在与docker容器的生存周期是分离的
 - docker数据卷是独立存储在docker宿主机的文件系统中
@@ -591,7 +591,7 @@ Server: Docker Engine - Community
 
 > 命名的容器挂在数据卷，其他容器通过挂在这个容器实现数据共享，挂载数据卷的容器，就叫做数据卷容器
 
-![](../data/imgs/docker/docker-data-volume-container.png)
+![](../.gitbook/assets/docker-data-volume-container.png)
 
 > 挂载数据卷容器的方法
 
@@ -608,7 +608,7 @@ Server: Docker Engine - Community
 
 > 上面个的命令执行的效果如下图
 
-![](../data/imgs/docker/docker-data-volume-backup.png)
+![](../.gitbook/assets/docker-data-volume-backup.png)
 
 > 数据还原方案
 

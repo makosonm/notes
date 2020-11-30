@@ -1,4 +1,12 @@
 # 简介
 
-> 记录自己的学习笔记及总结
-
+- `docker`
+- `git`
+- `golang`
+- `k8s`
+- `linux`
+- `lua`
+- `mysql`
+- `python`
+- `question`
+- `tools`

@@ -169,9 +169,9 @@
 
 > 下面以 `man date` 为例进行说明
 
-![](../data/imgs/basis/001.png) 
+![](../.gitbook/assets/basis-001.png) 
 
-![](../data/imgs/basis/002.png) 
+![](../.gitbook/assets/basis-002.png) 
 
 * `man date`
   * DATE\(1\) 1代表的是一般用户可以执行的命令
