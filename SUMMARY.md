@@ -6,6 +6,7 @@
     - [常用命令](linux/002-常用命令.md)
     - [kali-linux学习](linux/kali-linux.md)
 - [Golang](golang/README.md)
+	- [001-基础知识](golang/001-基础知识.md)
 - [Python](python/README.md)
 	- [01-用pythonic方式来思考](python/01-用pythonic方式来思考.md)
 	- [02-函数](python/02-函数.md)
