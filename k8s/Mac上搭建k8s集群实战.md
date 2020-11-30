@@ -553,8 +553,10 @@ roleRef:
     > 注意一定要使用https 通过token的方式访问；dashboard部署在了master节点（ip:192.168.156.128）映射的端口为 `30001` 故访问的时候直接使用 https://192.168.156.128:30001/ 即可
 
 - 效果展示
-    ![k8s-001.png](../.gitbook/assets/k8s-001.png)
-    ![k8s-002.png](../.gitbook/assets/k8s-002.png)
+
+![k8s-001.png](../.gitbook/assets/k8s-001.png)
+  
+![k8s-002.png](../.gitbook/assets/k8s-002.png)
 
 
 ## 7、问题及排错
@@ -698,7 +700,7 @@ systemctl restart network
 
 ### 8.3、虚拟机网络配置
 
-![k8s-003.png](../.gitbook/assets/k8s-002.png)
+![k8s-003.png](../.gitbook/assets/k8s-003.png)
 
 
 ## 9、k8s dashboard token 过期时间修改
