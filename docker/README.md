@@ -164,6 +164,7 @@ Server: Docker Engine - Community
 
 - 列出镜像
 	- `docker image ls -a -q`
+	- `docker image ls -f dangling=true` 列出悬空镜像
 	> -a 列出所有镜像  -q仅列出image id
 
 - 查看镜像详细信息
@@ -172,6 +173,7 @@ Server: Docker Engine - Community
 - 删除镜像
 	- `docker image rm id|name`
 	- `docker image rmi -f $(docker image ls -q)`
+	- `docker image prune` 删除悬空镜像
 	> 批量删除镜像
 
 - 编译镜像
@@ -314,6 +316,12 @@ Server: Docker Engine - Community
 - 删除已经停止的容器
 	- `docker rm containerid`
 
+- 导出容器
+    - `docker export containerId > xxx.tar`
+
+- 导入容器快照
+    - `cat xxx.tar | docker import - test/ubuntu:v1.0`
+    - `docker import http://example.com/exampleimage.tgz example/imagerepo`
 
 #### 3.3.3 守护式容器
 

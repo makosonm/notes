@@ -46,7 +46,7 @@ BuildVersion:	18A391
 
 ### 安装
 
-![安装示例图](https://raw.githubusercontent.com/pemako/LearnSummary/master/LearnKali/imgs/kali-install-demo.gif)
+![安装示例图](../data/imgs/linux/kali-install-demo.gif)
 
 - copy文件完成按照相应的提示进行操作安装即可
 
