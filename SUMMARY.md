@@ -25,5 +25,8 @@
 - [k8s](k8s/README.md)
     - [Mac上搭建k8s集群实战](k8s/Mac上搭建k8s集群实战.md)
 - [Tools](tools/README.md)
+    - [brew](tools/001-brew.md)
+    - [asciinema](tools/002-asciinema.md)
+    - [cheat](tools/003-cheat.md)
 - [问题记录](question/README.md)
     - [Mac上进行汇编编译](question/001-mac上汇编编译.md)
