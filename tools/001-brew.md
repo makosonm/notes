@@ -1,8 +1,17 @@
 # brew
 
 - 安装
-    - `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+- 使用
+
+```
+brew install wget
+brew install --cask firefox
+```
 
 ## Homebrew on Linux
 
@@ -67,11 +76,21 @@ if type brew &>/dev/null; then
 fi
 ```
 
-| :exclamation:  如果使用oh-my-zsh 需要重新编译 zcompdump|
-|-----------------------------------------|
+{% hint style="warning" %}
+如果使用oh-my-zsh 需要重新编译 zcompdump
+{% endhint %}
 
-`rm -f ~/.zcompdump; compinit`
+```
+rm -f ~/.zcompdump; compinit
+```
 
+{% hint style="warning" %}
+加载zcompdump时如果出现 zsh compinit: insecure directories 需要执行下面命令
+{% endhint %}
+
+```
+chmod -R go-w "$(brew --prefix)/share"
+```
 
 
 ### fish 配置
