@@ -29,5 +29,6 @@
     - [brew](tools/001-brew.md)
     - [asciinema](tools/002-asciinema.md)
     - [cheat](tools/003-cheat.md)
+    - [命令行下播放音乐](tools/004-命令行下播放音乐.md)
 - [问题记录](question/README.md)
     - [Mac上进行汇编编译](question/001-mac上汇编编译.md)

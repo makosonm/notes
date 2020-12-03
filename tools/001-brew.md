@@ -92,5 +92,16 @@ rm -f ~/.zcompdump; compinit
 chmod -R go-w "$(brew --prefix)/share"
 ```
 
-
 ### fish 配置
+
+把下面内容添加到 `~/.config/fish/config.fish`文件中
+
+```sh
+if test -d (brew --prefix)"/share/fish/completions"
+    set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/completions
+end
+
+if test -d (brew --prefix)"/share/fish/vendor_completions.d"
+    set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
+end
+```
