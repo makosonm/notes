@@ -19,6 +19,7 @@
 - [MySQL](mysql/README.md)
 - [Lua](lua/README.md)
 - [Vim](vim/README.md)
+    - [vim关闭buffers](vim/001-buffers.md)
 - [Git](git/README.md)
     - [多账号配置](git/多账号配置.md)
 - [Docker](docker/README.md)
