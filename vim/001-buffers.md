@@ -21,18 +21,18 @@
 
 缓冲区状态包含下面几种情况
 
-标记 | 说明 
-------| --------
--     | Readonly buffer, 禁用了modifiable选项，只读缓冲区
-=     | Readonly buffer, 只读缓冲区
-a     | Active buffer, 活动缓冲区，当前显示在屏幕上
-h     | Hidden buffer, 隐藏缓冲区，已载入但没有显示在屏幕上
-+     | Modiffied buffer, 禁用了modifiable选项，只读缓冲区
-x     | Error buffer, 读入时报错的缓冲区
-%     | Current buffer, 当前缓冲区
-#     | Alternate buffer, 交换缓冲区 
-u     | Unlisted buffer, 只有在列式命令中使用 ! 修饰符才能显示的缓冲区
-
+| 标记 | 说明  |
+|------| --------|
+| -     | Readonly buffer, 禁用了modifiable选项，只读缓冲区|
+| =     | Readonly buffer, 只读缓冲区|
+| a     | Active buffer, 活动缓冲区，当前显示在屏幕上|
+| h     | Hidden buffer, 隐藏缓冲区，已载入但没有显示在屏幕上|
+| +     | Modiffied buffer, 禁用了modifiable选项，只读缓冲区|
+| x     | Error buffer, 读入时报错的缓冲区|
+| %     | Current buffer, 当前缓冲区|
+| #     | Alternate buffer, 交换缓冲区 |
+| u     | Unlisted buffer, 只有在列式命令中使用 ! 修饰符才能显示的缓冲区|
+| |
 ## 选择缓冲区
 
 - 使用`number`参数，选择的hiing标号的缓冲区
