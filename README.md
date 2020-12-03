@@ -1,12 +1,13 @@
 # 简介
 
-- `docker`
-- `git`
-- `golang`
-- `k8s`
-- `linux`
-- `lua`
-- `mysql`
-- `python`
-- `question`
-- `tools`
+- `Docker`
+- `Git`
+- `Golang`
+- `K8S`
+- `Linux`
+- `Lua`
+- `MySQL`
+- `Python`
+- `Question`
+- `Tools`
+- `Vim`
