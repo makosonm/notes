@@ -19,6 +19,8 @@
 	- [09-PUDB调试程序](python/09-pudb调试程序.md)
 	- [10-装饰器](python/10-装饰器.md)
 	- [11-基础教程](python/11-基础教程.md)
+	- [12-一键升级Python包](python/12-一键升级Python包.md)
+	- [13-selenium模拟Chrome浏览器](python/13-selenium模拟Chrome浏览器.md)
 - [MySQL](mysql/README.md)
 	- [基本操作](mysql/001-基本操作.md)
 	- [存储过程](mysql/002-存储过程.md)
