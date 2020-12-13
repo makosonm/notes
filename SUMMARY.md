@@ -27,6 +27,7 @@
 - [Lua](lua/README.md)
 - [Vim](vim/README.md)
     - [Buffers](vim/001-buffers.md)
+    - [vim配置](vim/002-vimrc.md)
 - [Git](git/README.md)
     - [多账号配置](git/多账号配置.md)
 - [Docker](docker/README.md)
