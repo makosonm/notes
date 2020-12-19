@@ -37,10 +37,10 @@ Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}    " 树形目录插件，�
 Plug 'Xuyuanp/nerdtree-git-plugin'                      " nerdtree 辅助插件，展示文件状态
 Plug 'mhinz/vim-startify'                               " 版本控制系统 vcs 展示每列的增删改状态，支持大部分 vcs
 Plug 'voldikss/vim-translate-me'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'fatih/vim-go', {'tag': '*'}
 Plug 'majutsushi/tagbar', {'on': 'TagbarToggle'}
 Plug 'jiangmiao/auto-pairs'                             "自动补全括号插件
+" 注意这里如果系统为10.13 版本的不要使用最新版本 使用 commitid=4e480a3  原因:https://github.com/ycm-core/YouCompleteMe/issues/3805
 Plug 'ycm-core/YouCompleteMe', {'do': './install.py'}
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}     " YouCompleteMe 辅助插件，生成项目 .ycm_extra_conf.py 文件
 Plug 'tenfyzhong/CompleteParameter.vim'                 " ycm 辅助
