@@ -45,6 +45,7 @@
     - [命令行下播放音乐](tools/004-命令行下播放音乐.md)
     - [使用文本和代码表示图表](tools/005-使用文本和代码表示图表.md)
     - [Graphviz使用](tools/006-Graphviz绘图.md)
+    - [MacPorts使用](tools/007-MacPorts安装使用.md)
 - [问题记录](question/README.md)
     - [Mac上进行汇编编译](question/001-mac上汇编编译.md)
     - [MacOS系统重装](question/002-mac系统重装.md)
