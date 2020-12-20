@@ -105,3 +105,65 @@ if test -d (brew --prefix)"/share/fish/vendor_completions.d"
     set -gx fish_complete_path $fish_complete_path (brew --prefix)/share/fish/vendor_completions.d
 end
 ```
+
+
+###  常用命令
+
+#### 依赖相关
+
+- 列出某个软件的依赖
+
+```
+brew deps vim
+```
+
+- 查看所以的依赖信息
+
+```
+brew deps --formula --installed --tree
+
+autojump
+└── python@3.9
+    ├── gdbm
+    ├── openssl@1.1
+    ├── readline
+    ├── sqlite
+    │   └── readline
+    └── xz
+curl
+├── brotli
+├── libidn2
+│   ├── gettext
+│   └── libunistring
+├── libmetalink
+├── libssh2
+│   └── openssl@1.1
+├── nghttp2
+│   ├── c-ares
+│   ├── jemalloc
+│   ├── libev
+│   └── openssl@1.1
+├── openldap
+│   └── openssl@1.1
+├── openssl@1.1
+├── rtmpdump
+│   └── openssl@1.1
+└── zstd
+```
+
+#### 列出哪些包需要更新
+
+```
+brew outdated
+```
+
+#### 锁定包不更新
+
+```
+brew pin $FORMULA    # 锁定
+brew unpin $FORMULA  # 解除锁定
+```
+
+### 参考
+
+- https://blog.jpalardy.com/posts/untangling-your-homebrew-dependencies/
