@@ -24,7 +24,7 @@
 	- [12-一键升级Python包](python/12-一键升级Python包.md)
 	- [13-selenium模拟Chrome浏览器](python/13-selenium模拟Chrome浏览器.md)
 	- [14-测试相关](python/14-测试相关.md)
-	- [15-测试相关](python/15-一些模块.md)
+	- [15-一些模块](python/15-一些模块.md)
 	- [16-多进程日志](python/16-多进程日志.md)
 	- [17-文件操作](python/17-文件操作.md)
 	- [18-Dict转为Object](python/18-Dict转为Object.md)
