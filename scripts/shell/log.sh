@@ -6,16 +6,16 @@
 #
 # LOG_FILEPATH=$(pwd)/mako.log
 # source log.sh
-# 
+#
 # infolog "This test"       # 日志输入到指定mako.log 中
 # errorlog "This test too"  # 日志输出到 mako.log.wf 中
 #
 # 方式二: 直接引入不指定LOG_FILEPATH
 # 会查找当前目录下是否存在 log 或 logs 目录，不存在的话直接输出到console中
 # 存在会以执行的shell脚本名称命名日志名.log .log.wf
-# 
+#
 # source log.sh
-# 
+#
 # infolog "方式二 查找当前执行目录下是否有log或logs目录没有直接输出的console中"
 # errorlog "方式二 查找当前执行目录下是否有log或logs目录没有直接输出的console中"
 #
