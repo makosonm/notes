@@ -55,4 +55,4 @@
     - [Mac上进行汇编编译](question/001-mac上汇编编译.md)
     - [MacOS系统重装](question/002-mac系统重装.md)
     - [Mac GDB调试go程序](question/003-Mac-GDB调试go程序.md)
-    - [Shell中输出前置0](question/004-shell中输出前置0.md.md)
+    - [Shell中输出前置0](question/004-shell中输出前置0.md)
