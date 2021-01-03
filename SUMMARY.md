@@ -56,3 +56,6 @@
     - [MacOS系统重装](question/002-mac系统重装.md)
     - [Mac GDB调试go程序](question/003-Mac-GDB调试go程序.md)
     - [Shell中输出前置0](question/004-shell中输出前置0.md)
+- [阅读](read/README.md)
+    - [丰乳肥臀](read/001-丰乳肥臀.md)
+    - [一句顶一万句](read/002-一句顶一万句.md)
