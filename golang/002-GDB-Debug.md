@@ -2,7 +2,7 @@
 
 ## 系统信息
 
-```
+```shell
 ➜  notes git:(master) ✗ brew config
 HOMEBREW_VERSION: 2.6.2
 ORIGIN: https://github.com/Homebrew/brew
@@ -31,13 +31,13 @@ Xcode: 10.1)
 
 - go 版本
 
-```
+```shell
 go version go1.15.6 darwin/amd64
 ```
 
 - gdb版本
 
-```
+```shell
 GNU gdb (GDB) 10.1)
 ```
 
@@ -46,27 +46,27 @@ GNU gdb (GDB) 10.1)
 - `brew install gdb`
 - `echo "set startup-with-shell off" >> ~/.gdbinit`
 - 创建证书
-	- 1、打开 Keychain Access -> Certificate Assistant -> Create a Certificate...
-	- 2、设置 
-    	- Name: gdb_cert; 
-    	- Identity Type:Self Signed Root
-    	- Certifcate Type: Code Signing
-    	- 勾选 Let me override defaults
-    	- 一路下一步直到出现最后 Keychain: 选择 login(这里选择System的话会导致证书创建失败，先选择login模式后面进行导出后重新导入设置)
-	- 3、设置密码导出证书
-	- 4、导入证书把导出的证书拖到 Keychain Access-> System中即可
-	- 5、codesign -f -s gdb_cert $(which gdb)
-	- 6、如不生效重启电脑
+  - 1、打开 Keychain Access -> Certificate Assistant -> Create a Certificate...
+  - 2、设置
+    - Name: gdb_cert;
+    - Identity Type:Self Signed Root
+    - Certifcate Type: Code Signing
+    - 勾选 Let me override defaults
+    - 一路下一步直到出现最后 Keychain: 选择 login(这里选择System的话会导致证书创建失败，先选择login模式后面进行导出后重新导入设置)
+  - 3、设置密码导出证书
+  - 4、导入证书把导出的证书拖到 Keychain Access-> System中即可
+  - 5、codesign -f -s gdb_cert $(which gdb)
+  - 6、如不生效重启电脑
 
 - Go环境设置
-    
-    - `export GOFLAGS="-ldflags=-compressdwarf=false"` [参考](https://golang.org/doc/gdb#Known_Issues) 第4点
-    
+
+  - `export GOFLAGS="-ldflags=-compressdwarf=false"` [参考](https://golang.org/doc/gdb#Known_Issues) 第4点
+
 - 编译 `go build -gcflags "-N -l" -o main main.go`
- 
+
 - 调试demo
 
-```
+```shell
 ➜  apps gdb main
 GNU gdb (GDB) 10.1
 Copyright (C) 2020 Free Software Foundation, Inc.
