@@ -255,7 +255,7 @@ Server: Docker Engine - Community
 	- 设置环境变量 ENV <key> <value>
 
 - USER 
-	- USER nginx 已nginx用户启动
+	- USER nginx 以 nginx 用户启动
 	- USER user| user:group |user:gid |uid |uid:gid |uid:group
 
 - ONBUILD [INSTRUCTION]
